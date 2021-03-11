@@ -6,10 +6,9 @@ public class MyFirstProgram {
   {
     System.out.println("Hello, world!");
 
-    System.out.println(2 + 2);
-    System.out.println(2 - 2);
-    System.out.println(2 * 2);
-    System.out.println(2/2);
+    int l = 3;
+    int s = l*l;
+    System.out.println("Площадь квадрата со стороной " + l + " = " + s);
   }
 
 } 
